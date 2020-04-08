@@ -1,0 +1,28 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Bookstore application with Nodejs and Angular",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D4r1an/bookstore.git"
+  },
+  "author": "Darian Chirca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D4r1an/bookstore/issues"
+  },
+  "homepage": "https://github.com/D4r1an/bookstore#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
